@@ -1,0 +1,86 @@
+body {
+	font: 'arial', sans-serif;
+    color: rgba(0,0,0,.65);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    top: 15%;
+	background: linear-gradient(to rgb(247, 247, 247), rgb(128, 236, 236)); /* Standard syntax */
+}
+
+h1 {
+    font: 600 3.5em 'Raleway', sans-serif;
+    color: rgba(0,0,0,0,0.65);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    width: 100%;
+}
+
+
+h3 {
+	font: 900 1em 'Consolas', courier new;
+    color: rgba(0,0,0,0.6);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+    margin: 10px;
+
+}
+
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.25em;
+    margin-inline-start: 15px;
+    margin-inline-end: 15px;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.h3Box {
+    display: inline-block;
+    border: 2px solid gray;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px black;
+}
+
+.color1 {
+     border-radius: 5px;
+     cursor: pointer;
+}
+.color2 {
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.random {
+    background-color: #eeeeee;
+    border: 1.5px solid gray;
+    border-radius: 5px;
+    color: rgba(0,0,0,.70);
+    padding: 5px 7px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    margin: 5px 0px 20px 0px;
+    cursor: pointer;
+}
+
+.copy-btn {
+    border-radius: 5px;
+    display: inline-block;
+    padding: 1px;
+    vertical-align: center;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    letter-spacing: 2px;
+}
